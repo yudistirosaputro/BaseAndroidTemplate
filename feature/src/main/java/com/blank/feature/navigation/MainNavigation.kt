@@ -1,4 +1,4 @@
-package com.blank.basetemplate.ui
+package com.blank.feature.navigation
 
 import kotlinx.serialization.Serializable
 
@@ -9,3 +9,4 @@ sealed class MainNavigation {
     @Serializable
     object HomeNavigation : MainNavigation()
 }
+

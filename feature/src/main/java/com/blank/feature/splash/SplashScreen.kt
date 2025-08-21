@@ -1,4 +1,4 @@
-package com.blank.basetemplate.ui.splash
+package com.blank.feature.splash
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -17,7 +17,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.blank.basetemplate.R
+import com.blank.feature.R
 import kotlinx.coroutines.delay
 
 @Composable

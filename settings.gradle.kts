@@ -21,4 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "base template"
 include(":app")
+include(":core")
+include(":feature")
+include(":data")
+include(":domain")
  

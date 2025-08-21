@@ -1,4 +1,4 @@
-package com.blank.basetemplate.ui.theme
+package com.blank.core.ui.theme
 
 import android.app.Activity
 import android.os.Build

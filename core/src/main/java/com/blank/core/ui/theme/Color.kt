@@ -1,4 +1,4 @@
-package com.blank.basetemplate.ui.theme
+package com.blank.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
