@@ -1,15 +1,9 @@
 plugins {
-    alias(libs.plugins.android.library)
-    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.buildlogic.android.library)
 }
 
 android {
     namespace = "com.blank.data"
-    compileSdk = 36
-
-    defaultConfig {
-        minSdk = 24
-    }
 }
 
 dependencies {
