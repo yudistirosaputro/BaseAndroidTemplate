@@ -20,9 +20,12 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "base template"
+includeBuild("build-logic")
 include(":app")
 include(":core")
-include(":feature")
 include(":data")
 include(":domain")
+include(":feature:home")
+include(":feature:splash")
+include(":navigation")
  

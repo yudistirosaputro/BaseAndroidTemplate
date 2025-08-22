@@ -1,4 +1,4 @@
-package com.blank.feature.navigation
+package com.blank.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -6,8 +6,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.blank.feature.navigation.MainNavigation.SplashNavigation
-import com.blank.feature.navigation.MainNavigation.HomeNavigation
+import com.blank.navigation.MainNavigation.SplashNavigation
+import com.blank.navigation.MainNavigation.HomeNavigation
 import com.blank.feature.home.HomeScreen
 import com.blank.feature.splash.SplashScreen
 

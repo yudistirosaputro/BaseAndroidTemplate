@@ -18,23 +18,15 @@ A modern Android project template using Jetpack Compose, Kotlin, and following c
 ## Project Structure
 
 ```
-app/
-├── src/
-│   ├── main/
-│   │   ├── java/com/blank/basetemplate/
-│   │   │   ├── data/            # Data layer: repositories, data sources
-│   │   │   ├── di/              # Dependency injection modules
-│   │   │   ├── ui/              # UI layer: screens, components, themes
-│   │   │   │   ├── home/        # Home screen components
-│   │   │   │   ├── theme/       # Theme definitions
-│   │   │   │   ├── MainNavGraph.kt    # Navigation graph
-│   │   │   │   └── MainNavigation.kt  # Navigation routes
-│   │   │   ├── MainActivity.kt  # Main activity
-│   │   │   └── MainApp.kt       # Application class
-│   │   └── res/                 # Resources
-│   ├── androidTest/             # Android instrumentation tests
-│   └── test/                    # Unit tests
-└── build.gradle.kts             # App module build script
+build-logic/             # Gradle convention plugins
+app/                     # Application module
+core/                    # Shared utilities and UI themes
+data/                    # Data layer: repositories, data sources
+domain/                  # Domain layer: business logic
+feature/
+├── home/                # Home feature module
+└── splash/              # Splash feature module
+navigation/              # Navigation graph and destinations
 ```
 
 ## Architecture

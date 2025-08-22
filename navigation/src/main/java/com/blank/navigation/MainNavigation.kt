@@ -1,4 +1,4 @@
-package com.blank.feature.navigation
+package com.blank.navigation
 
 import kotlinx.serialization.Serializable
 
